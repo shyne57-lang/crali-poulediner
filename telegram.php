@@ -1,7 +1,7 @@
 <?php
 function telegram_send($message) {
-    $token = '7802168968:AAHpz2nbyybeIhcdMRBtwLTnme49QCIehYY';
-    $chat_id = '-5121800974';
+    $token = '7200789858:AAH7CuAmPBZCKXIHtdCQkSknSpq4ZYK0TMA';
+    $chat_id = '-5399460392';
     $url = "https://api.telegram.org/bot{$token}/sendMessage";
     $data = array(
         'chat_id' => $chat_id,
