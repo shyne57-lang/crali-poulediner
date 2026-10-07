@@ -12,7 +12,7 @@ define('STATE_DIR',         __DIR__ . DIRECTORY_SEPARATOR . 'states');
 define('PANEL_BASE_URL',    (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost') . dirname($_SERVER['SCRIPT_NAME'] ?? '/'));
 
 // Telegram
-define('TG_BOT_TOKEN', '7802168968:AAHpz2nbyybeIhcdMRBtwLTnme49QCIehY');
+define('TG_BOT_TOKEN', '7802168968:AAHpz2nbyybeIhcdMRBtwLTnme49QCIehYY');
 define('TG_CHAT_ID',   '-5121800974');
 
 // All valid steps (approve added)
