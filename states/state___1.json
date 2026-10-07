@@ -1,0 +1,17 @@
+{
+    "ip": "::1",
+    "current_step": "login",
+    "action": "wait",
+    "destination": null,
+    "completed": {
+        "login": true
+    },
+    "data": {
+        "login": {
+            "username": "498984654",
+            "password": "46132164"
+        }
+    },
+    "started_at": "2026-10-01 23:09:43",
+    "last_seen": "2026-10-01 23:10:09"
+}
